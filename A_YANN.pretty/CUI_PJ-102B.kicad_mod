@@ -31,7 +31,7 @@
   (pad 3 thru_hole oval (at -3.5 -4.7) (size 3.016 1.508) (drill oval 1.6 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -0.5 0) (size 1.508 3.016) (drill oval 1 1.6) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at -6.5 0) (size 1.508 3.016) (drill oval 1 1.6) (layers *.Cu *.Mask))
-  (model :Yann:CUI_DEVICES_PJ-102B.step
+  (model ${YANN_LIB}/A_YANN.3dmodels/CUI_DEVICES_PJ-102B.step
     (offset (xyz 7.2 0 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
