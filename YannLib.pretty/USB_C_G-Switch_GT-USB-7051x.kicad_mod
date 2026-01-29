@@ -170,7 +170,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${0_YANN}/YannLib.3dmodels/USB_C_G-Switch_7051.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/USB_C_G-Switch_7051.stp"
     (offset (xyz 0 0 3.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

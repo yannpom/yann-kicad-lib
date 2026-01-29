@@ -24,7 +24,7 @@
   (pad 13 thru_hole circle (at 10.16 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 10.16 -2.54) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 10.16 -5.08) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/TSW-105-08-T-T-RA.stp
+  (model ${YANN_LIB}/YannLib.3dmodels/TSW-105-08-T-T-RA.stp
     (offset (xyz 5.08 -1.54 4.37))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

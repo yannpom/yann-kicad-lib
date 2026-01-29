@@ -19,7 +19,7 @@
   (pad "4" smd roundrect (at -0.585 -0.938) (size 0.57 0.638) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 514cfe8a-5bb0-43cf-8d7e-ea39f999b827))
   (pad "5" smd roundrect (at -0.585 0) (size 0.57 0.638) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 9fb3c755-8c22-4290-98d8-79b510709e1a))
   (pad "6" smd roundrect (at -0.585 0.938) (size 0.57 0.638) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp c850b260-1f42-48e1-88d2-c6a27a285f93))
-  (model ":0_YANN:YannLib.3dmodels/SPH0641LU4H-1.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/SPH0641LU4H-1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

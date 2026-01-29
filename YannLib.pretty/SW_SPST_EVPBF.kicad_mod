@@ -36,7 +36,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /Users/yann/KICAD_LIBRARY/Panasonic_EVPBFAC1A000.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/Panasonic_EVPBFAC1A000.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

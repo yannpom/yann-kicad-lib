@@ -172,7 +172,7 @@
     (solder_mask_margin 0.102) (tstamp 3e41357e-9749-4a54-b7e0-cd7d2c1aee23))
   (pad "P$9" smd roundrect (at -0.1 -0.89) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.14)
     (solder_mask_margin 0.102) (tstamp 8139f4bb-2733-427e-8cc0-7827285ac538))
-  (model "${0_YANN}/YannLib.3dmodels/ESP32-S3-WROOM-1.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/ESP32-S3-WROOM-1.step"
     (offset (xyz 0 4.8 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

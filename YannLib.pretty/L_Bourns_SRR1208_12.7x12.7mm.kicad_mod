@@ -90,7 +90,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${0_YANN}/3d/srr1208-6r5ml.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/srr1208-6r5ml.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

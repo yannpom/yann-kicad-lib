@@ -127,7 +127,7 @@
   (pad "2" thru_hole circle (at 2.4 3.6) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp f181e43f-caf0-4537-b2a8-3e4e0eb8421b))
   (pad "3" thru_hole circle (at 5.5 -1.6) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp d8f3a2fe-5e6f-4c45-8653-233a777c63bf))
   (pad "4" thru_hole circle (at -2.6 4.5) (size 1.65 1.65) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 7539849f-5436-404c-8f9f-54a931478cb7))
-  (model ":0_YANN:YannLib.3dmodels/CUI_DEVICES_SJ-43514.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/CUI_DEVICES_SJ-43514.step"
     (offset (xyz -5.5 0 2.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

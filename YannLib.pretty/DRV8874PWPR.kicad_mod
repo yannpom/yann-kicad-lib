@@ -84,7 +84,7 @@
   (pad "17" thru_hole circle (at 1.1 0) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp e3490f42-9fe4-45c3-bfdf-9a408faf67f5))
   (pad "17" thru_hole circle (at 1.1 0.7) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp d2ee3a39-b70f-46a4-b755-27321cd58bab))
   (pad "17" thru_hole circle (at 1.1 1.4) (size 0.6 0.6) (drill 0.3) (layers "*.Cu") (tstamp d995f7b7-2043-4336-890a-b9070c0e9a5a))
-  (model "${0_YANN}/YannLib.3dmodels/DRV8874PWPR.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/DRV8874PWPR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

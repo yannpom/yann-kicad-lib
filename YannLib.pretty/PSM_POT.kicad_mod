@@ -24,7 +24,7 @@
   (pad 6 thru_hole circle (at -43.75 5.625) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 47 21) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 59 21) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/PSM60-082A_centered.step
+  (model ${YANN_LIB}/YannLib.3dmodels/PSM60-082A_centered.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -28,7 +28,7 @@
   (pad 1 smd rect (at -18.21 0) (size 7.34 6.35) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 18.21 0) (size 7.34 6.35) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -14.54 -6.73) (size 1.98 1.98) (drill 1.98) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/Keystone-PN1016.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/Keystone-PN1016.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

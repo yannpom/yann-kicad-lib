@@ -15,40 +15,17 @@
 	(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-
-	;; Component outline on Fab layer (10.0 x 11.2 mm)
 	(fp_rect (start -5 -5.6) (end 5 5.6) (layer "F.Fab") (stroke (width 0.1) (type solid)))
-
-	;; Silkscreen outline (avoiding pads)
 	(fp_line (start -5.2 -5.8) (end 5.2 -5.8) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
 	(fp_line (start -5.2 5.8) (end 5.2 5.8) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
 	(fp_line (start -5.2 -5.8) (end -5.2 -3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
 	(fp_line (start 5.2 -5.8) (end 5.2 -3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
 	(fp_line (start -5.2 5.8) (end -5.2 3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
 	(fp_line (start 5.2 5.8) (end 5.2 3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-
-	;; Pin 1 marker
 	(fp_circle (center -5.8 -3.5) (end -5.5 -3.5) (layer "F.SilkS") (stroke (width 0.15) (type solid)) (fill none))
-
-	;; Courtyard (0.25mm clearance)
 	(fp_rect (start -5.5 -6.1) (end 5.5 6.1) (layer "F.CrtYd") (stroke (width 0.05) (type solid)))
-
-	;; Pads - based on recommended land pattern: 2.0 x 4.0 mm
-	;; Horizontal spacing: 8.0 mm center-to-center (pads at x = ±4.0)
-	;; Vertical spacing: 7.0 mm center-to-center (pads at y = ±3.5)
-	;; Pin arrangement from datasheet schematic:
-	;; Pin 1 (top-left) - Pin 2 (top-right) : Inductor L1-2
-	;; Pin 4 (bottom-left) - Pin 3 (bottom-right) : Inductor L4-3
-
 	(pad "1" smd rect (at -4 -3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
 	(pad "2" smd rect (at 4 -3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
 	(pad "3" smd rect (at 4 3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
 	(pad "4" smd rect (at -4 3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
-
-	;; 3D model placeholder
-	;; (model "${KIPRJMOD}/libs/3dmodels/BCOHL1041.step"
-	;;     (offset (xyz 0 0 0))
-	;;     (scale (xyz 1 1 1))
-	;;     (rotate (xyz 0 0 0))
-	;; )
 )

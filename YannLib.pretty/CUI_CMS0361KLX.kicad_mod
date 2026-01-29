@@ -15,7 +15,7 @@
   (pad "" np_thru_hole circle (at 15.25 15.25) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -15.25 15.25) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -15.25 -15.25) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/CUI_DEVICES_CMS0361KLX.step
+  (model ${YANN_LIB}/YannLib.3dmodels/CUI_DEVICES_CMS0361KLX.step
     (offset (xyz 0 0 17))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

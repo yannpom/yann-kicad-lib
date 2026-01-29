@@ -48,7 +48,7 @@
   (pad "" np_thru_hole circle (at -15.2 0.5) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -15.2 29) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 15.2 29) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/OLED_SSD1306_1_3_128x64.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/OLED_SSD1306_1_3_128x64.STEP
     (offset (xyz 0 -14.75 7.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

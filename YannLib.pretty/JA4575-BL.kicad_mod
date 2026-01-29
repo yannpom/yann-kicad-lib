@@ -17,7 +17,7 @@
   (pad "2" thru_hole circle (at -4.13 3.355) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp 2f3deced-880d-4075-a81b-95c62da5b94d))
   (pad "3" thru_hole circle (at 4.13 -3.355) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp bb4f0314-c44c-4dda-b85c-537120eaae9a))
   (pad "4" thru_hole circle (at 4.13 3.355) (size 2.1 2.1) (drill 1.1) (layers *.Cu *.Mask) (tstamp d0dfd7c1-401d-4f64-8463-f4c0813ac28f))
-  (model ":0_YANN:YannLib.3dmodels/Coilcraft-JA4575-BL.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/Coilcraft-JA4575-BL.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

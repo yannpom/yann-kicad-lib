@@ -40,7 +40,7 @@
   (pad "" np_thru_hole circle (at 36.11 17.5) (size 2.38 2.38) (drill 2.38) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 27.6 -17.5) (size 3.55 3.55) (drill 3.55) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 27.6 0) (size 3.18 3.18) (drill 3.18) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/KeyStone.pretty/keystone-PN1049.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/keystone-PN1049.STEP
     (offset (xyz -2.5 0.07000000000000001 11.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -273,7 +273,7 @@
       )
     )
   )
-  (model "${0_YANN}/YannLib.3dmodels/LC86LICMD.STEP"
+  (model "${YANN_LIB}/YannLib.3dmodels/LC86LICMD.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

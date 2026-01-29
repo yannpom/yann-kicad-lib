@@ -2089,7 +2089,7 @@
   (pad "S2" thru_hole oval (at 4.32 -3) (size 0.8 1.6) (drill oval 0.6 1.2) (layers "*.Cu") (tstamp 175530a4-8a42-4a55-9027-f7f1c6ce018d))
   (pad "S3" thru_hole oval (at -4.32 0.8) (size 0.8 1.6) (drill oval 0.6 1.2) (layers "*.Cu") (tstamp 2b004ce7-8853-493d-b01c-a4d7ad282392))
   (pad "S4" thru_hole oval (at 4.32 0.8) (size 0.8 1.6) (drill oval 0.6 1.2) (layers "*.Cu") (tstamp 4ee5623d-9c8b-4261-a3e0-fbf7fc8ee449))
-  (model "${0_YANN}/YannLib.3dmodels/GCT_USB4125-GF-A.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/GCT_USB4125-GF-A.stp"
     (offset (xyz 0 -3.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

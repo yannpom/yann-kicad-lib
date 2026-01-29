@@ -50,7 +50,7 @@
   (pad 6 thru_hole oval (at 2.705 1.115 90) (size 1.7 1.35) (drill oval 1.2 0.7) (layers *.Cu *.Mask))
   (pad 6 smd rect (at -0.985 1.385 90) (size 2.5 1.43) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 0.935 1.385 90) (size 2.5 1.43) (layers F.Cu F.Paste F.Mask))
-  (model /Users/yann/KICAD_LIBRARY/Amphenol_USB_Micro_B_10103594.step
+  (model ${YANN_LIB}/YannLib.3dmodels/Amphenol_USB_Micro_B_10103594.step
     (offset (xyz 0 0.2 2.24))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))

@@ -53,7 +53,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":0_YANN:YannLib.3dmodels/SRP7050AA Series.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/SRP7050AA Series.stp"
     (offset (xyz 0 0 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 -90))

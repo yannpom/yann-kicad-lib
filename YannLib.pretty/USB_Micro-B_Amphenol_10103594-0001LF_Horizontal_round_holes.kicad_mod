@@ -50,7 +50,7 @@
   (pad 6 smd rect (at -2.975 -0.565) (size 1.825 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -2.755 0.185) (size 1.35 2) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 2.725 0.185) (size 1.35 2) (layers F.Cu F.Paste F.Mask))
-  (model /Users/yann/KICAD_LIBRARY/Amphenol_USB_Micro_B_10103594.step
+  (model ${YANN_LIB}/YannLib.3dmodels/Amphenol_USB_Micro_B_10103594.step
     (offset (xyz 0 0.2 2.24))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))

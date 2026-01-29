@@ -321,7 +321,7 @@
       )
     )
   )
-  (model "${0_YANN}/YannLib.3dmodels/1054500101.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/1054500101.step"
     (offset (xyz 0 3.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -28,7 +28,7 @@
   (pad 1 thru_hole circle (at 0 -2.15) (size 3.2 3.2) (drill 1.94) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 -17.45) (size 3.2 3.2) (drill 1.94) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -25.05) (size 3.2 3.2) (drill 1.94) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/deltron-572-0100-4mm-90deg-double-socket-3D-step-file.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/deltron-572-0100-4mm-90deg-double-socket-3D-step-file.STEP
     (offset (xyz 0 27.25 13.75))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

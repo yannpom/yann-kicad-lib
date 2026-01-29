@@ -57,7 +57,7 @@
     (solder_mask_margin 0.102) (tstamp eecdb7c4-3581-49ef-99f9-b6deed9c0c8a))
   (pad "9" smd rect (at 0.46 0) (size 4.12 4.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp df7c4c35-c936-457d-b6ba-726684b18a07))
-  (model "${0_YANN}/YannLib.3dmodels/DFN5X6_8L_EP1_P.STEP"
+  (model "${YANN_LIB}/YannLib.3dmodels/DFN5X6_8L_EP1_P.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

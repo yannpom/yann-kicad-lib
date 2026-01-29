@@ -31,7 +31,7 @@
   (pad "9" thru_hole circle (at -3.25 -5.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp ba31267d-79f6-4d63-a42c-6d6d73dbaeb6))
   (pad "9" thru_hole circle (at -17.25 -5.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp bedb44bc-bdec-4a89-bdbf-bd76ca955aee))
   (pad "9" thru_hole circle (at 24.75 -5.25) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp f63829d0-b0b2-43d7-81b4-a46e43292e9b))
-  (model "/Users/yann/KICAD_LIBRARY_6/YannLib.3dmodels/pjras4x2u_Series.STEP"
+  (model "${YANN_LIB}/YannLib.3dmodels/pjras4x2u_Series.STEP"
     (offset (xyz 0 0.9 13.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

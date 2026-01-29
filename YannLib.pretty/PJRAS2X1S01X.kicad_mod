@@ -251,7 +251,7 @@
     (solder_mask_margin 0.102) (tstamp edfa4ae4-f2f8-492c-923d-e72382530e2e))
   (pad "T2" thru_hole circle (at 3.675 3.25) (size 2 2) (drill 1.3) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 4e93753c-8db9-4c71-bac0-2eb22888716f))
-  (model "${0_YANN}/YannLib.3dmodels/PJRAS2X1S01X.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/PJRAS2X1S01X.step"
     (offset (xyz -6.5 0.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

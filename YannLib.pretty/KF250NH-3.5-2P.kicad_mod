@@ -41,7 +41,7 @@
     (solder_mask_margin 0.102) (tstamp eb6c2cc6-e1ed-425d-80a6-7113d2f647c3))
   (pad "2" thru_hole circle (at 3.5 0) (size 2.1 2.1) (drill 1.4) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 27e7cc35-a003-469f-af2d-48835eb549c8))
-  (model "${0_YANN}/YannLib.3dmodels/KF250NH_3.5_2P.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/KF250NH_3.5_2P.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

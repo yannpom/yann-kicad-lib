@@ -17,7 +17,7 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 7b60d141-1d73-4bf8-b08b-b7c29fee47dd))
   (pad "1" smd rect (at 1.8 0) (size 1.5 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4de31973-589e-4334-a9f9-de19c1281133))
   (pad "2" smd rect (at -1.8 0) (size 1.5 4.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b52a9f2-7759-4cb4-bfc2-57436154aa02))
-  (model "/Users/yann/KICAD_LIBRARY/Bourns_SRN5040TA.STEP"
+  (model "${YANN_LIB}/YannLib.3dmodels/Bourns_SRN5040TA.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

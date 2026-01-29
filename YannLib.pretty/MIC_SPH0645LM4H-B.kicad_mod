@@ -25,7 +25,7 @@
   (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask) (tstamp 07dd5f62-e587-4daf-8b9a-23fca2828468))
   (pad "1" smd rect (at -0.9 -2.074) (size 0.6 0.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a1be515e-a7bb-43c1-b1bb-0aba8f0efd17))
   (pad "2" smd rect (at -0.9 -1.252) (size 0.6 0.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 394eb892-83c7-42b8-9b9c-326149318b9b))
-  (pad "3" smd custom (at 0 0 90) (size 0 0) (layers "F.Cu" "F.Mask")
+  (pad "3" smd custom (at 0 0 90) (size 0.1 0.1) (layers "F.Cu" "F.Mask")
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_circle (center 0 0) (end 0.65 0) (width 0.3))
@@ -33,7 +33,7 @@
   (pad "4" smd rect (at 0.9 -1.252) (size 0.6 0.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9eb0bc53-3fbf-4d5e-b5d1-bd3b2353b1f6))
   (pad "5" smd rect (at 0.9 -2.074) (size 0.6 0.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ae8c28a5-5f9e-40b5-ad38-f4958dc61f60))
   (pad "6" smd rect (at 0 -2.074) (size 0.6 0.522) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e9ade4da-d6d0-4cff-9a78-03aa3592e3ca))
-  (model ":0_YANN:YannLib.3dmodels/SPH0645LM4H-B.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/SPH0645LM4H-B.step"
     (offset (xyz 0 0.71 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

@@ -54,7 +54,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /Users/yann/KICAD_LIBRARY/PHOENIX_CONTACT_MPT-0-5-5-2-54_3D.stp
+  (model ${YANN_LIB}/YannLib.3dmodels/PHOENIX_CONTACT_MPT-0-5-5-2-54_3D.stp
     (offset (xyz -1.5 -3.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

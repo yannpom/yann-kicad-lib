@@ -55,7 +55,7 @@
     (solder_mask_margin 0.102) (tstamp 5aaca214-d596-4a17-912a-648361793773))
   (pad "2" smd rect (at 0.625 0) (size 0.55 0.8) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.102) (tstamp c9b93568-4eb3-4979-ab2f-b68a818ca654))
-  (model "${0_YANN}/YannLib.3dmodels/ESDA25P35-1U1M.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/ESDA25P35-1U1M.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

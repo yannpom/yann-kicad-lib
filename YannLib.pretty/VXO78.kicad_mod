@@ -20,7 +20,7 @@
   (pad 2 thru_hole circle (at 0 0) (size 2.1 2.1) (drill 1.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.54 0) (size 2.1 2.1) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.54 0) (size 2.1 2.1) (drill 1.2) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/CUI_VXO7805-500.step
+  (model ${YANN_LIB}/YannLib.3dmodels/CUI_VXO7805-500.step
     (offset (xyz 0 3.85 1.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

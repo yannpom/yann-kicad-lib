@@ -263,7 +263,7 @@
       )
     )
   )
-  (model "${0_YANN}/YannLib.3dmodels/ESP32-S3-MINI-1-N8--3DModel-STEP-510211.STEP"
+  (model "${YANN_LIB}/YannLib.3dmodels/ESP32-S3-MINI-1-N8--3DModel-STEP-510211.STEP"
     (offset (xyz 0 2.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

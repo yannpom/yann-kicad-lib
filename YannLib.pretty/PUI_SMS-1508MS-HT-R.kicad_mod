@@ -34,7 +34,7 @@
       )
     )
   )
-  (model ":0_YANN:YannLib.3dmodels/PUI_SMS-1508MS-HT-R.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/PUI_SMS-1508MS-HT-R.stp"
     (offset (xyz 0 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

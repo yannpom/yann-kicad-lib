@@ -37,12 +37,12 @@
   (pad 2 thru_hole oval (at 1.27 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at -1.27 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at -3.81 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/OLED_SSD1306_1_3_128x64.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/OLED_SSD1306_1_3_128x64.STEP
     (offset (xyz 0 13.8 -13.45))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model /Users/yann/KICAD_LIBRARY/SSW-104-02-G-S-RA.stp
+  (model ${YANN_LIB}/YannLib.3dmodels/SSW-104-02-G-S-RA.stp
     (offset (xyz 0 1.5 1.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

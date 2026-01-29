@@ -38,7 +38,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /Users/yann/KICAD_LIBRARY/pxc_1778696_02_PTSM-0-5-2-HV-2-5-SMD-WH-R24_3D.stp
+  (model ${YANN_LIB}/YannLib.3dmodels/pxc_1778696_02_PTSM-0-5-2-HV-2-5-SMD-WH-R24_3D.stp
     (offset (xyz -3.05 -1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

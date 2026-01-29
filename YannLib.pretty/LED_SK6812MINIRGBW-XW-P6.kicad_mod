@@ -52,7 +52,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/Users/yann/KICAD_LIBRARY/SMD SK6812.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/SMD SK6812.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

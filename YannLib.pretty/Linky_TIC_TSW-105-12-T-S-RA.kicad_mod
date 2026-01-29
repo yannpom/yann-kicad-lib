@@ -27,12 +27,12 @@
   (pad "1" thru_hole rect (at 0 -5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c7351bc0-95e7-4de9-93f8-e2fc166956da))
   (pad "2" thru_hole oval (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 2e14092c-1e97-4b3c-b1f4-9b887ef28570))
   (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7072b420-9990-4d8f-a6b8-3c72e84d3433))
-  (model ":0_YANN:YannLib.3dmodels/TSW-105-12-T-S-RA.stp" hide
+  (model "${YANN_LIB}/YannLib.3dmodels/TSW-105-12-T-S-RA.stp" hide
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))
   )
-  (model ":0_YANN:YannLib.3dmodels/TSW-203-12-T-S-RA.stp"
+  (model "${YANN_LIB}/YannLib.3dmodels/TSW-203-12-T-S-RA.stp"
     (offset (xyz 0 0 2.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

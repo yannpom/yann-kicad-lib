@@ -12,7 +12,7 @@
   (pad 2 thru_hole circle (at 0 0) (size 3 3) (drill 1.85) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.7 0) (size 3 3) (drill 1.85) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -4.7 0) (size 3 3) (drill 1.85) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/toggle_switch.step
+  (model ${YANN_LIB}/YannLib.3dmodels/toggle_switch.step
     (offset (xyz 0 0 5.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

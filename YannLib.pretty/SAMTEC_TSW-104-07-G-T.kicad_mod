@@ -67,7 +67,7 @@
     (solder_mask_margin 0.102) (tstamp 9f53defc-2c6e-43ce-b496-649f7bf62a64))
   (pad "12" thru_hole circle (at 3.81 -2.54) (size 1.37 1.37) (drill 1.02) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 04ed814b-a242-4a24-b5ee-4e94f67a28c3))
-  (model "${0_YANN}/YannLib.3dmodels/TSW-104-07-G-T.step"
+  (model "${YANN_LIB}/YannLib.3dmodels/TSW-104-07-G-T.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

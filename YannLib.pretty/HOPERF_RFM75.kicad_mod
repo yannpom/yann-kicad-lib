@@ -27,7 +27,7 @@
   (pad 6 smd rect (at 0 8.05) (size 2 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 0 9.32) (size 2 0.85) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 0 10.59) (size 2 0.85) (layers F.Cu F.Paste F.Mask))
-  (model /Users/yann/KICAD_LIBRARY/RFM75.STEP
+  (model ${YANN_LIB}/YannLib.3dmodels/RFM75.STEP
     (offset (xyz 8.4 -6.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

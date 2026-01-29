@@ -23,7 +23,7 @@
   (pad 6 thru_hole circle (at 8.7 -1.5) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 6.2 -1.5) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.7 -1.5) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (model /Users/yann/KICAD_LIBRARY/E-Switch_WBL.step
+  (model ${YANN_LIB}/YannLib.3dmodels/E-Switch_WBL.step
     (offset (xyz -2.85 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
