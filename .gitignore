@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# KiCAD backups
+*.bak
+*-backups/
+*_autosave-*
+
+# Local Claude settings
+.claude/
+
+# Don't include official KiCAD libraries (they're installed separately)
+kicad-footprints/
