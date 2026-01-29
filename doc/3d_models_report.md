@@ -1,4 +1,4 @@
-# Rapport des modèles 3D - A_YANN Library
+# Rapport des modèles 3D - YannLib Library
 
 Date: 2025-01-29 (mise à jour finale)
 
@@ -6,8 +6,8 @@ Date: 2025-01-29 (mise à jour finale)
 
 | Catégorie | Nombre |
 |-----------|--------|
-| Footprints dans `A_YANN.pretty/` | 115 |
-| Fichiers 3D dans `A_YANN.3dmodels/` | 87 |
+| Footprints dans `YannLib.pretty/` | 115 |
+| Fichiers 3D dans `YannLib.3dmodels/` | 87 |
 | Fichiers 3D non utilisés | 0 |
 | Modèles STEP manquants | 2 |
 | Références .wrl (librairies officielles) | 22 |
@@ -56,8 +56,8 @@ Ces fichiers VRML sont référencés mais font partie des **librairies officiell
 
 ## Corrections effectuées
 
-- [x] `CUI_PJ-102B.kicad_mod` : chemin corrigé vers `${YANN_LIB}/A_YANN.3dmodels/CUI_DEVICES_PJ-102B.step`
-- [x] `KYCON_KPJX-4S-S.kicad_mod` : chemin corrigé vers `${YANN_LIB}/A_YANN.3dmodels/KPJX-4S-S.step`
+- [x] `CUI_PJ-102B.kicad_mod` : chemin corrigé vers `${YANN_LIB}/YannLib.3dmodels/CUI_DEVICES_PJ-102B.step`
+- [x] `KYCON_KPJX-4S-S.kicad_mod` : chemin corrigé vers `${YANN_LIB}/YannLib.3dmodels/KPJX-4S-S.step`
 - [x] Suppression de 7 fichiers 3D non utilisés (~4.8 MB récupérés)
 
 ---
