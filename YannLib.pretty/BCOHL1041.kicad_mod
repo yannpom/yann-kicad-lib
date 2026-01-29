@@ -1,31 +1,195 @@
 (footprint "BCOHL1041"
-	(version 20240108)
-	(generator "hand-coded")
-	(generator_version "1.0")
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bao Cheng BCOHL1041 SMD Coupled Inductor, 10x11.2mm, 4-pin")
 	(tags "inductor coupled SMD")
+	(property "Reference" "REF**"
+		(at 0 6.5 0)
+		(layer "F.SilkS")
+		(uuid "4e499396-bb39-4da8-843b-e4348689e59b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BCOHL1041"
+		(at 0 -6.5 0)
+		(layer "F.Fab")
+		(uuid "f00c992c-21a9-4f70-8b19-c28646ffcd65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8244b91-b004-4fe8-94e4-1d59277908c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "291e71b5-92da-489e-986a-1a76e4901f76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference "REF**" (at 0 -7) (layer "F.SilkS")
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.5 -5.5)
+		(end -5.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "566a8079-2cb2-4b86-8aa5-3f8f00c161e7")
 	)
-	(fp_text value "BCOHL1041" (at 0 7) (layer "F.Fab")
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.5 -5.5)
+		(end -4.5 -5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f7aecfe-96fa-4fe1-afaa-daf4de2f75ae")
 	)
-	(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.5 5.5)
+		(end -4.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b86e6682-b3b3-4c6e-9ef9-54f4b7e423db")
 	)
-	(fp_rect (start -5 -5.6) (end 5 5.6) (layer "F.Fab") (stroke (width 0.1) (type solid)))
-	(fp_line (start -5.2 -5.8) (end 5.2 -5.8) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_line (start -5.2 5.8) (end 5.2 5.8) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_line (start -5.2 -5.8) (end -5.2 -3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_line (start 5.2 -5.8) (end 5.2 -3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_line (start -5.2 5.8) (end -5.2 3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_line (start 5.2 5.8) (end 5.2 3.7) (layer "F.SilkS") (stroke (width 0.15) (type solid)))
-	(fp_circle (center -5.8 -3.5) (end -5.5 -3.5) (layer "F.SilkS") (stroke (width 0.15) (type solid)) (fill none))
-	(fp_rect (start -5.5 -6.1) (end 5.5 6.1) (layer "F.CrtYd") (stroke (width 0.05) (type solid)))
-	(pad "1" smd rect (at -4 -3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
-	(pad "2" smd rect (at 4 -3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
-	(pad "3" smd rect (at 4 3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
-	(pad "4" smd rect (at -4 3.5) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask"))
+	(fp_line
+		(start 4.5 -5.5)
+		(end 5.5 -5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20a000ee-66ba-460c-be9f-71d7095824e6")
+	)
+	(fp_line
+		(start 4.5 5.5)
+		(end 5.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ed15996-1201-4ea8-9f76-79436384467a")
+	)
+	(fp_line
+		(start 5.5 -5.5)
+		(end 5.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfc6b5df-ebe2-4009-9d9f-e4d590b81c3e")
+	)
+	(fp_circle
+		(center -4.5 -6.5)
+		(end -4.5 -6.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3b64a010-4209-40a4-956b-31d25b23f603")
+	)
+	(fp_rect
+		(start -5.5 -6)
+		(end 5.5 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "35502097-b8bb-40c1-99b9-1a13dc9fe77b")
+	)
+	(fp_rect
+		(start -5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d774a29-9ce6-4a27-8e07-3feac17c170b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "deb16193-5e16-48b1-9191-6e688d0f843b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 -4)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80fb6137-c8c5-4553-959d-bc795ee1b547")
+	)
+	(pad "2" smd rect
+		(at -2.5 4)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad444f16-a592-4e84-a174-e3315eac10f8")
+	)
+	(pad "3" smd rect
+		(at 2.5 4)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2dac31b-5058-4d82-926b-680c965d1c6b")
+	)
+	(pad "4" smd rect
+		(at 2.5 -4)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5120d551-94c6-45fe-9d41-7992a22b3e09")
+	)
+	(embedded_fonts no)
+	(model "${YANN_LIB}/YannLib.3dmodels/BCOHL1041.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
