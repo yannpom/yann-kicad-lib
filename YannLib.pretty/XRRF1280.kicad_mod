@@ -1,0 +1,131 @@
+(footprint "XRRF1280"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed1cd8c5-d22a-4ee1-ade0-c8ac2862d541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XRRF1280"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee234757-1743-4573-8bcb-7a8ed104365f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74276e4e-d6ae-44cf-97ba-d2db0e2e39bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8adf1b1-337b-4f95-bd80-d056111894c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65fd2105-35d5-455e-85e9-d7bfec48fcbb")
+	)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "93913533-d5f5-480b-9349-3ec756015553")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "577cb20c-919c-4723-aecb-c270007c9ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.715 -4.25)
+		(size 2.15 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8dbb2929-d0aa-48a7-b908-545c83b7db43")
+	)
+	(pad "2" smd roundrect
+		(at 1.715 -4.25)
+		(size 2.15 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "f9ef7d82-c90b-4889-90ea-849d60c467a9")
+	)
+	(pad "3" smd roundrect
+		(at 1.715 4.25)
+		(size 2.15 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "945a92ba-aa76-42aa-aaa9-6c4d3b6df666")
+	)
+	(pad "4" smd roundrect
+		(at -1.715 4.25)
+		(size 2.15 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "12e0a019-04ad-4ce7-8af4-a63b41a7f20e")
+	)
+	(embedded_fonts no)
+	(model "${YANN_LIB}/YannLib.3dmodels/XRRF1280.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
