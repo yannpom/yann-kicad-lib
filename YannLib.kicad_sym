@@ -3257,7 +3257,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0_YANN:CUI_SJ-43514"
+		(property "Footprint" "YannLib:CUI_SJ-43514"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:KYCON_KPJX-4S-S"
+		(property "Footprint" "YannLib:KYCON_KPJX-4S-S"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5650,7 +5650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_YANN:DFN5X6_8L_EP1_P"
+		(property "Footprint" "YannLib:DFN5X6_8L_EP1_P"
 			(at 5.08 2.54 0)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0_YANN:DRV8874PWPR"
+		(property "Footprint" "YannLib:DRV8874PWPR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7919,7 +7919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9470,7 +9470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "YannLib:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9923,7 +9923,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0_YANN:ESP32-C6-WROOM-1-N8"
+		(property "Footprint" "YannLib:ESP32-C6-WROOM-1-N8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17423,7 +17423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_YANN:ESP32-WROVER-E"
+		(property "Footprint" "YannLib:ESP32-WROVER-E"
 			(at 0 -38.1 0)
 			(effects
 				(font
@@ -19418,7 +19418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:JA4575-BL"
+		(property "Footprint" "YannLib:JA4575-BL"
 			(at 1.27 -11.43 0)
 			(effects
 				(font
@@ -22332,7 +22332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:MSK12C02"
+		(property "Footprint" "YannLib:MSK12C02"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23390,7 +23390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:PEC12R-2S"
+		(property "Footprint" "YannLib:PEC12R-2S"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -26778,7 +26778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:Switchcraft_RCA_x2_PJRAS1X2S01X"
+		(property "Footprint" "YannLib:Switchcraft_RCA_x2_PJRAS1X2S01X"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -27025,7 +27025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:Switchcraft_RCA_x8_PJRAS4X2U01X"
+		(property "Footprint" "YannLib:Switchcraft_RCA_x8_PJRAS4X2U01X"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -27985,7 +27985,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "0_YANN:LED_SK6812MINIRGBW-XW-P6"
+		(property "Footprint" "YannLib:LED_SK6812MINIRGBW-XW-P6"
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -28494,7 +28494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:SPG08P4HM4H-1"
+		(property "Footprint" "YannLib:SPG08P4HM4H-1"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -28710,7 +28710,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0_YANN:MIC_SPH0645LM4H-B"
+		(property "Footprint" "YannLib:MIC_SPH0645LM4H-B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29284,7 +29284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_YANN:Bourns_SRP7050AA"
+		(property "Footprint" "YannLib:Bourns_SRP7050AA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -33142,7 +33142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0_YANN:GCT_USB4125"
+		(property "Footprint" "YannLib:GCT_USB4125"
 			(at 0 0 0)
 			(effects
 				(font
