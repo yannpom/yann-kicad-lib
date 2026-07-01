@@ -12059,7 +12059,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "ESP32-S3-MINI-1-N8"
+		(property "Footprint" "YannLib:ESP32-S3-MINI-1-N8"
 			(at -1.27 -2.54 0)
 			(effects
 				(font
@@ -12088,6 +12088,16 @@
 			)
 		)
 		(property "MPN" "ESP32-S3-MINI-1-N8"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2913206"
 			(at -1.27 0 0)
 			(effects
 				(font
