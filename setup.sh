@@ -40,11 +40,24 @@ add_to_table() {
             echo "✓ $type: YannLib already configured"
             return
         fi
-        # Add entry before the closing parenthesis
-        sed -i.bak 's/)$//' "$file"
-        echo "$entry" >> "$file"
-        echo ")" >> "$file"
-        rm -f "$file.bak"
+        # Insert entry before the final closing parenthesis only.
+        # (Do NOT strip ')' from every line — that corrupts existing entries.)
+        awk -v entry="$entry" '
+            { lines[NR] = $0 }
+            END {
+                last = NR
+                while (last > 0 && lines[last] ~ /^[[:space:]]*$/) last--
+                for (i = 1; i < last; i++) print lines[i]
+                if (lines[last] ~ /^[[:space:]]*\)[[:space:]]*$/) {
+                    print entry
+                    print ")"
+                } else {
+                    # Fallback: no lone closing paren found, just append.
+                    print lines[last]
+                    print entry
+                }
+            }
+        ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
         echo "✓ $type: Added YannLib"
     else
         # Create new file
