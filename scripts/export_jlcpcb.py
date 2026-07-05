@@ -62,16 +62,38 @@ def get_rotation_correction(footprint: str, corrections: list[dict]) -> tuple[fl
     return 0, 0, 0
 
 
+def get_copper_layers(pcb_file: Path) -> list[str]:
+    """Extract enabled copper layers from the board stackup, in board order.
+
+    Returns e.g. ["F.Cu", "In1.Cu", "In2.Cu", "B.Cu"] for a 4-layer board,
+    or ["F.Cu", "B.Cu"] for a 2-layer board. This ensures inner copper layers
+    are never silently dropped from the fabrication gerbers.
+    """
+    text = pcb_file.read_text()
+    # The (layers ...) stackup block lists entries like: (0 "F.Cu" signal)
+    m = re.search(r"\(layers\s*(.*?)\n\s*\)", text, re.S)
+    block = m.group(1) if m else text
+    layers = re.findall(r'\(\s*\d+\s+"((?:F|B|In\d+)\.Cu)"', block)
+    # De-duplicate while preserving order.
+    seen = set()
+    ordered = [l for l in layers if not (l in seen or seen.add(l))]
+    return ordered or ["F.Cu", "B.Cu"]
+
+
 def generate_gerbers(pcb_file: Path, output_dir: Path) -> bool:
     """Generate Gerber and drill files."""
     gerber_dir = output_dir / "gerber"
     gerber_dir.mkdir(parents=True, exist_ok=True)
 
-    print("1. Generating Gerber files...")
+    copper = get_copper_layers(pcb_file)
+    layers = ",".join(copper + ["F.Paste", "B.Paste", "F.SilkS", "B.SilkS",
+                                 "F.Mask", "B.Mask", "Edge.Cuts"])
+
+    print(f"1. Generating Gerber files ({len(copper)} copper layers: {', '.join(copper)})...")
     if not run_kicad_cli(
         "pcb", "export", "gerbers",
         "--output", str(gerber_dir) + "/",
-        "--layers", "F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts",
+        "--layers", layers,
         "--no-x2",
         "--subtract-soldermask",
         "--use-drill-file-origin",
@@ -148,7 +170,15 @@ def generate_cpl(pcb_file: Path, output_dir: Path) -> bool:
             if rot_corr != 0 or off_x != 0 or off_y != 0:
                 corrections_applied += 1
 
-            final_rot = (rot + rot_corr) % 360
+            # The rotation database is defined in the part's TOP-side frame.
+            # On the bottom side the board is mirrored (about the Y axis, X -> -X),
+            # which inverts the sense of rotation: the correction is subtracted
+            # instead of added, and the footprint-local X offset is mirrored.
+            if layer == "bottom":
+                final_rot = (rot - rot_corr) % 360
+                off_x = -off_x
+            else:
+                final_rot = (rot + rot_corr) % 360
             # Apply offset in footprint's local frame, rotated by component angle
             angle_rad = math.radians(rot)
             final_x = pos_x + off_x * math.cos(angle_rad) - off_y * math.sin(angle_rad)

@@ -1,4 +1,10 @@
-"Footprint pattern","Rotation","Offset X", "Offset Y"
+"Footprint pattern","Rotation","Offset X","Offset Y"
+"^SOT-23-6",270
+"^DFN-8-1EP_3x3mm",90
+"^VSSOP-10_3x3mm_P0.5mm",90
+"^LGA-14_3x2.5mm",180
+"^DRV8874PWPR",270
+"^SW_DIP_SPSTx02_Slide_KingTek",270
 "QFN-",270
 "VQFN-",270
 "WQFN-",270
@@ -38,7 +44,7 @@
 "^CP_EIA-",180
 "^CP_Elec_8x5.4",180
 "^CP_Elec_8x10.5",180
-"^CP_Elec_6.3x7.7",180
+"^CP_Elec_6.3x7.7",0
 "^CP_Elec_8x6.7",180
 "^CP_Elec_8x10",180
 "^CP_Elec_10x10",180
@@ -47,7 +53,7 @@
 "^PowerPAK_SO-8_Single",270
 "^HTSSOP-28-1EP_4.4x9.7mm*",270
 "^PUIAudio_SMT_0825_S_4_R*",270
-"^USB_C_Receptacle_HRO_TYPE-C-31-M-12*",0
+"^USB_C_Receptacle_HRO_TYPE-C-31-M-12",0,0,1.42
 "^ESP32-W",270
 "^SOIC127P798X216-8N",-90
 "^SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm",-180
@@ -63,6 +69,7 @@
 "^Transformer_Ethernet_Pulse_HX0068ANL",270
 "^JST_GH_SM",180
 "^JST_PH_S",180
+"^JST_PH_B8B-PH-K_1x08_P2.00mm",180,7.0,0
 "^Diodes_PowerDI3333-8",270
 "^Quectel_L80-R",270
 "^SC-74-6",180
