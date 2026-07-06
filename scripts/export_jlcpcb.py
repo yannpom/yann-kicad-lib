@@ -62,6 +62,41 @@ def get_rotation_correction(footprint: str, corrections: list[dict]) -> tuple[fl
     return 0, 0, 0
 
 
+def load_ref_corrections(schematic_file: Path) -> dict[str, tuple[float, float, float]]:
+    """Per-component rotation/offset overrides read from the schematic.
+
+    The correction is stored as a `JLCPCB_Rotation` field (optionally
+    `JLCPCB_OffsetX` / `JLCPCB_OffsetY`) on the component's symbol. Because it
+    lives on the symbol in the custom library, it travels with the part: reuse
+    the component in another project and the correction comes along, with no
+    manual re-entry. It is applied ADDITIVELY on top of the generic
+    footprint-pattern correction, so one specific part can deviate from its
+    footprint's baseline without disturbing other parts that share the footprint.
+    """
+    overrides: dict[str, tuple[float, float, float]] = {}
+    if not schematic_file or not schematic_file.exists():
+        return overrides
+
+    text = schematic_file.read_text()
+    # Split on the Reference field itself (indentation-independent): each segment
+    # spans one symbol's properties, from its Reference up to the next symbol's.
+    # Library definitions carry a base Reference like "U" (no digits) and power
+    # symbols "#PWR..." — both are filtered out below.
+    for seg in re.split(r'\(property "Reference" "', text)[1:]:
+        ref = seg.split('"', 1)[0]
+        if not re.match(r"^[A-Za-z]+\d+$", ref):
+            continue
+
+        def field(name):
+            m = re.search(r'\(property "%s" "([^"]*)"' % re.escape(name), seg)
+            return m.group(1) if m else None
+
+        rot, off_x, off_y = field("JLCPCB_Rotation"), field("JLCPCB_OffsetX"), field("JLCPCB_OffsetY")
+        if rot or off_x or off_y:
+            overrides[ref] = (float(rot or 0), float(off_x or 0), float(off_y or 0))
+    return overrides
+
+
 def get_copper_layers(pcb_file: Path) -> list[str]:
     """Extract enabled copper layers from the board stackup, in board order.
 
@@ -145,8 +180,10 @@ def generate_cpl(pcb_file: Path, output_dir: Path) -> bool:
     ):
         return False
 
-    # Load rotation corrections
+    # Load rotation corrections: generic footprint-pattern DB (shipped with
+    # this script) + project-specific per-reference overrides (next to the board)
     corrections = load_rotation_corrections()
+    ref_corrections = load_ref_corrections(pcb_file.with_suffix(".kicad_sch"))
 
     # Convert to JLCPCB format with corrections
     rows = []
@@ -165,8 +202,15 @@ def generate_cpl(pcb_file: Path, output_dir: Path) -> bool:
             # Convert side to JLCPCB format
             layer = "top" if side.lower() in ["top", "front", "f"] else "bottom"
 
-            # Apply rotation correction
+            # Apply rotation correction (footprint-pattern DB, then project
+            # per-reference override added on top so it can single out one
+            # designator without disturbing parts that share its footprint).
             rot_corr, off_x, off_y = get_rotation_correction(footprint, corrections)
+            if ref in ref_corrections:
+                r_rot, r_ox, r_oy = ref_corrections[ref]
+                rot_corr += r_rot
+                off_x += r_ox
+                off_y += r_oy
             if rot_corr != 0 or off_x != 0 or off_y != 0:
                 corrections_applied += 1
 
