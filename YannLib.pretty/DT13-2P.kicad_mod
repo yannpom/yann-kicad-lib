@@ -1,0 +1,349 @@
+(footprint "DT13-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity DEUTSCH DT13-2P, sealed automotive PCB header receptacle, 2 positions, RIGHT ANGLE (90deg) molded pins, FLANGED front panel mount; DEUTSCH size 16 contacts, 13 A on 14-16 AWG / 10 A on 18 AWG / 7.5 A on 20 AWG, 250 VAC/VDC, -55..+125 degC, 100 mating cycles, 20 G / 10-2000 Hz per 108-151009 rev E (22AUG2024); that spec rates IP68/IP6K9K for the INLINE plug+receptacle with rear protection only - headers and flanged versions are listed Not Tested. Mates with DT06-2S-XXXX plug + W2S wedge lock. Geometry from TE customer drawing DT13-2P rev B (20NOV2006) + application spec 114-151046 rev A (28AUG2020) sec.3.4, cross-checked against TE STEP model C-DT13-2P, agreement 0.001 mm. PCB layout: 2x finished hole D1.88 +/-0.05 (pin D1.5622), pin pitch 5.461 mm; 3x NPTH D3.43 +0.12/-0.00 for #4-20 Plastite 48 thread-forming screws, pair 18.3134 mm apart, third hole 8.001 mm toward the panel on the pair axis midpoint. Mating axis sits 13.9446 mm above the PCB top surface; pins protrude 3.10 +/-0.64 below it. Panel inner face (seal land) is 16.002 mm from the pin row (Dwgs.User line); overall body 35.306 (X) x 36.068 (Y), the shroud protrudes 14.097 mm in front of the panel; cutout centre at X=+2.7305, 13.9446 mm above the PCB top. Panel cutout option 2: 18.16 (screw axis) x 18.03 mm, 4x R4.32, plus 2x D3.94 for #6-19 screws on the screw axis 25.40 mm apart; panel 6.25 mm max. CAVEAT: application-spec fig. 3.4 is drawn as seen from the connector underside; this footprint follows the STEP model and the mating-face view, so pin 1 is on the -X side. This part is fully symmetric in X (pins +/-2.7305, panel screws +/-12.70, PCB screws +/-9.1567) and the drawing's bottom view carries NO pin numbers, so the orientation rests on only two agreeing sources: the front view (pin 2 upper, pin 1 lower, key X-X on the left) and the STEP keyway asymmetry on +y (405 pts vs 79). Re-check against a physical part before committing boards. If the fab NPTH tolerance is negative, order the mounting holes at 3.45-3.50 (spec allows 3.43 to 3.55). https://www.te.com/en/product-DT13-2P.html")
+	(tags "connector DEUTSCH DT DT13 2 pin position right angle 90deg flange panel mount sealed automotive TE size 16 13A IP67 header receptacle")
+	(property "Reference" "REF**"
+		(at -13.9225 -7.569 0)
+		(layer "F.SilkS")
+		(uuid "e3ea6524-93bb-46a9-9215-08e4026e4bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DT13-2P"
+		(at 2.7305 31.899 0)
+		(layer "F.Fab")
+		(uuid "1e4f2a49-9c6d-44ce-9cdb-580b7df60c96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=DT13-2P&DocType=Customer+Drawing&DocLang=English"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "104f9244-4336-4e52-87d7-b0a9c2af6d0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DEUTSCH DT 2-pos sealed header, right angle, flanged panel mount, size 16 contacts 13 A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b68b2f88-da82-43b3-840e-0e913b0a63c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ee50dd5-56d9-43d7-9a64-5dae3ff61b40")
+	)
+	(pad "2" thru_hole circle
+		(at 5.461 0)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7a15244-2229-442f-bad0-7838a8267bc5")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.4262 -1.905)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d5b2d9b2-4d6e-4277-9db3-2e92e71d4334")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.8872 -1.905)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "15568dfb-ba38-45f7-a621-376ab40870cd")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.7305 6.096)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3419d89a-8e95-4c6e-91c6-aaa95a7fe82d")
+	)
+	(fp_line
+		(start -10.4905 -5.969)
+		(end 15.9515 -5.969)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d960dea4-f73e-4254-9f71-a1628be4e627")
+	)
+	(fp_line
+		(start 15.9515 -5.969)
+		(end 15.9515 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "858e963e-d60b-4e64-b096-40b0f6806ab0")
+	)
+	(fp_line
+		(start 15.9515 3.937)
+		(end -10.4905 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd5683ad-ce66-4148-ba18-2d8c34042ca4")
+	)
+	(fp_line
+		(start -10.4905 3.937)
+		(end -10.4905 -5.969)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c55efc7e-6dc2-422b-b15d-0f55119f19c5")
+	)
+	(fp_line
+		(start -14.9225 3.937)
+		(end 20.3835 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4667c8d6-4407-4704-a5b5-9db7912d6b7f")
+	)
+	(fp_line
+		(start 20.3835 3.937)
+		(end 20.3835 16.002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fa27b36-c034-4d12-9673-2519c2cc4106")
+	)
+	(fp_line
+		(start 20.3835 16.002)
+		(end -14.9225 16.002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d20bd0f9-f6e4-45dd-b933-cf33b8f9ab1b")
+	)
+	(fp_line
+		(start -14.9225 16.002)
+		(end -14.9225 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85b68b78-d778-4605-a14a-9666782725fc")
+	)
+	(fp_line
+		(start -5.8415 16.002)
+		(end 11.3025 16.002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9dcddb9-3b89-47f5-a68d-f417d7f1e14f")
+	)
+	(fp_line
+		(start 11.3025 16.002)
+		(end 11.3025 30.099)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d2550c4-07b7-49a7-bfdb-296c7c20ab21")
+	)
+	(fp_line
+		(start 11.3025 30.099)
+		(end -5.8415 30.099)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1988a6e9-4884-4445-91d0-00a8badbed08")
+	)
+	(fp_line
+		(start -5.8415 30.099)
+		(end -5.8415 16.002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd2d82c9-05be-42b2-88ea-6318078ac74a")
+	)
+	(fp_line
+		(start -10.4905 -4.369)
+		(end -8.8905 -5.969)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d312d58f-4bf3-4aab-99f2-5cda2955cd67")
+	)
+	(fp_text user "1"
+		(at -2.2 -2.2 0)
+		(layer "F.Fab")
+		(uuid "ae8e9670-699d-4d0f-a441-f74b88b7a1ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -16.4225 16.002)
+		(end 21.8835 16.002)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7b1ec090-9242-4540-991c-7fc5e9961462")
+	)
+	(fp_text user "PANEL"
+		(at 25.3835 16.002 0)
+		(layer "Dwgs.User")
+		(uuid "06bad156-e023-408e-a721-ca63518ad0ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -10.4905 -5.969)
+		(end 15.9515 -5.969)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "026a220e-fc14-4b5a-97a8-3acea8512698")
+	)
+	(fp_line
+		(start -10.4905 -5.969)
+		(end -10.4905 3.937)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adeec535-bdf0-411e-8677-dd349d5873b2")
+	)
+	(fp_line
+		(start 15.9515 -5.969)
+		(end 15.9515 3.937)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74d87913-57a9-46ca-984d-ebadb1c45095")
+	)
+	(fp_poly
+		(pts
+				(xy -3.5 -1)
+				(xy -3.5 1)
+				(xy -2 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "60c88335-4082-4e88-9ad6-6053df8695f8")
+	)
+	(fp_line
+		(start -15.4225 -6.469)
+		(end 20.8835 -6.469)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be29d9a4-c975-476b-b833-f3344ac42fdf")
+	)
+	(fp_line
+		(start 20.8835 -6.469)
+		(end 20.8835 30.599)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74803ce5-8166-4bfa-bb45-b933822c33ad")
+	)
+	(fp_line
+		(start 20.8835 30.599)
+		(end -15.4225 30.599)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22280cc5-c681-4cee-bcbb-9f14bc7c4da5")
+	)
+	(fp_line
+		(start -15.4225 30.599)
+		(end -15.4225 -6.469)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91b22c0b-9257-404d-bc4f-f21a7a5edb05")
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/TE_DEUTSCH_DT13-2P.step"
+		(offset
+			(xyz 2.7305 -30.099 13.9446)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
