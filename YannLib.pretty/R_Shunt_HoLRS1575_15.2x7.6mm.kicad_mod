@@ -1,0 +1,265 @@
+(footprint "R_Shunt_HoLRS1575_15.2x7.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Milliohm HoLRS1575 bare-alloy shunt, 100uOhm 1% 7W, LCSC C5127845; source: HoS20260413-90 rev.A0 2026-04-13 p.3 W=15.2+/-0.3 A=7.6+/-0.5 H=2.5+/-0.5 T=4.2+/-0.5 D2=2.0+/-0.1mm; recommended land pattern p.6 L=16 A=8.75 B=5.6mm: pads 5.20x8.75mm, pitch 10.80mm. Six paste windows per terminal, 63.16% nominal terminal area; solid zone connections. Kelvin routing from inner edges; keep inter-pad area masked and free of top copper. Nominal STEP with simplified bends; underside clearance and assembly process require qualification.")
+	(tags "resistor shunt current sense Milliohm HoLRS1575 bare alloy 1575 C5127845")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "fda84024-80a7-4dc0-9ef8-90169bbcad3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Shunt_HoLRS1575_15.2x7.6mm"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(uuid "f0a28272-50f4-4221-a21e-1d47a23e6de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "HoS20260413-90 rev.A0 2026-04-13 pp.3,6 (YESC: docs/references/composants/HoLRS1575.pdf)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb3e0493-a03c-4620-8980-7f8ba52ea825")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Milliohm HoLRS1575, manufacturer land pattern, nominal 3D; assembly qualification pending"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0249544-a64c-485d-ab07-d7c25defd74d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_line
+		(start -2.1 -3.91)
+		(end 2.1 -3.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68c9baf1-4e57-4ccd-bcd5-4747d266539a")
+	)
+	(fp_line
+		(start -2.1 3.91)
+		(end 2.1 3.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b408d36-f974-4983-b226-2e92efc7c210")
+	)
+	(fp_line
+		(start -8.25 -4.63)
+		(end 8.25 -4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa70dde0-1292-4939-a775-7c1b35347b01")
+	)
+	(fp_line
+		(start -8.25 4.63)
+		(end -8.25 -4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8523ff46-c694-48f0-b130-6a819ef75519")
+	)
+	(fp_line
+		(start 8.25 -4.63)
+		(end 8.25 4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "debecc6f-f26e-44fc-a9f7-cfc68a85ecfb")
+	)
+	(fp_line
+		(start 8.25 4.63)
+		(end -8.25 4.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "369f9e58-1a8a-4261-860a-138619e63bfd")
+	)
+	(fp_line
+		(start -7.6 -3.8)
+		(end 7.6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2594d19-772f-42fc-a84d-e4109fc78276")
+	)
+	(fp_line
+		(start -7.6 3.8)
+		(end -7.6 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9de323a2-dc9f-44e0-8ddc-e0c360fd165c")
+	)
+	(fp_line
+		(start 7.6 -3.8)
+		(end 7.6 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4008810-74ee-4729-affe-47411ef3485a")
+	)
+	(fp_line
+		(start 7.6 3.8)
+		(end -7.6 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cfabaa03-8c94-4620-9855-ee69025b2668")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d5334caf-e8f4-4ef8-8893-96fef210315c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at -6.55 -2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "5fee7363-2492-47e6-827b-d626fe48ef1f")
+	)
+	(pad "" smd rect
+		(at -6.55 0)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "c62a6622-ea73-4e9f-b255-c2b8689a7a71")
+	)
+	(pad "" smd rect
+		(at -6.55 2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "87d78714-49c1-4174-8bb7-71d782daf2fc")
+	)
+	(pad "" smd rect
+		(at -4.45 -2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "42e3a4fb-ef18-42bf-a2b8-cc9d872f0c10")
+	)
+	(pad "" smd rect
+		(at -4.45 0)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "174af725-779a-4519-b2f3-8c1376a7ce22")
+	)
+	(pad "" smd rect
+		(at -4.45 2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "67c4ce7f-1bfb-44d7-9e7b-ce7d99638551")
+	)
+	(pad "" smd rect
+		(at 4.45 -2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "b5af64c0-bc14-4ed6-ad2e-d7d360dc5256")
+	)
+	(pad "" smd rect
+		(at 4.45 0)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "8e9a3d85-fabe-489c-b79f-fc1595da9899")
+	)
+	(pad "" smd rect
+		(at 4.45 2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "22d1465a-1201-4ab5-ada6-91caa18cbeba")
+	)
+	(pad "" smd rect
+		(at 6.55 -2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "96964fa7-7a8d-4523-ac03-9d1dce9ee584")
+	)
+	(pad "" smd rect
+		(at 6.55 0)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "76e95cde-44fd-4863-a1a9-86032392de7e")
+	)
+	(pad "" smd rect
+		(at 6.55 2.5)
+		(size 1.6 2.1)
+		(layers "F.Paste")
+		(uuid "60dad476-864f-47ac-8ab4-db402241d4d3")
+	)
+	(pad "1" smd roundrect
+		(at -5.4 0)
+		(size 5.2 8.75)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.0480769231)
+		(uuid "cf64116c-cb48-4bc8-ba1e-559b6a46d220")
+	)
+	(pad "2" smd roundrect
+		(at 5.4 0)
+		(size 5.2 8.75)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.0480769231)
+		(uuid "471ddfcd-da88-4926-846a-9a4dd25a15b8")
+	)
+	(embedded_fonts no)
+	(model "${YANN_LIB}/YannLib.3dmodels/Milliohm_HoLRS1575.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
