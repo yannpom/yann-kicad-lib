@@ -1,0 +1,478 @@
+(footprint "DT15-6P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity DEUTSCH DT15-6P, sealed PCB header receptacle, 6 positions, STRAIGHT (180deg) pins, FLANGED panel mount, PCB parallel to the panel; DEUTSCH size 16 contacts, 13 A on 14-16 AWG, 250 V, -55..+125 degC, 100 mating cycles (108-151009); mates DT06-6S-XXXX. Geometry from TE customer drawing C-DT15-6P rev D (25SEP2019), application spec 114-151046 rev A fig. DT15-6P, cross-checked on TE STEP c-dt15-6p-99-3d (pin tails on hole centres, 0.000 mm). PCB layout: 6x D1.88 +/-0.05, pins 4.445 pitch in two columns 9.119 apart; 4x NPTH D3.43 +0.12/-0 for #4-20 Plastite 48 screws from under the PCB (21.336 x 21.742). Pin block is offset 1.537 mm from the panel cutout centre, away from the key. Seating plane on the PCB; flange underside 4.19, flange front (panel seat) 15.24-15.75 above the PCB (drawing 15.75), nose top 30.35; pins 3.10 below. Panel cutout option 2 on Dwgs.User: 25.17 (screw axis) x 21.84, 4x R6.35, 2x D3.94 on 32.89 for #6-19 screws, panel 6.25 max. CAVEAT: the 114-151046 layout figure is a bottom view; this footprint follows the drawing front and rear views and the STEP: seen from the component side, key down, left column 1-2-3 from bottom to top, right column 4-5-6 from top to bottom. If the fab NPTH tolerance is symmetric, order 3.45-3.50. https://www.te.com/en/product-DT15-6P.html")
+	(tags "connector DEUTSCH DT DT15 6 pin position straight vertical 180deg flange panel mount sealed automotive TE size 16 13A header receptacle")
+	(property "Reference" "REF**"
+		(at -13.069 -25.907 0)
+		(layer "F.SilkS")
+		(uuid "7434ff31-0478-478a-92ba-3ae7302b8314")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DT15-6P"
+		(at 4.559 23.092 0)
+		(layer "F.Fab")
+		(uuid "dd1dc498-d9c9-4641-aebb-840c65f4f0e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=DT15-6P&DocType=Customer+Drawing&DocLang=English"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "577674d4-3487-4883-b2c1-7b827909b733")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DEUTSCH DT 6-pos sealed header, straight (180 deg), flanged panel mount, size 16 contacts 13 A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16ae700c-b571-411a-9336-ed3363ae678c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f830b03-3c35-4462-8007-991c34075082")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -4.445)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f587c087-092f-4c10-9821-45f1f45c9934")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -8.89)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7045342-db3e-4463-a7cf-ac6155a12923")
+	)
+	(pad "4" thru_hole circle
+		(at 9.118 -8.89)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6ba75a30-40a4-4be6-80fd-8d54b86ac037")
+	)
+	(pad "5" thru_hole circle
+		(at 9.118 -4.445)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1920222d-07f5-4f65-9248-18d0c1b05d06")
+	)
+	(pad "6" thru_hole circle
+		(at 9.118 0)
+		(size 3 3)
+		(drill 1.88)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fade56b6-9bde-46bd-96d6-2d74dca353ca")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.109 6.426)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "580f7886-645c-476f-a2bc-027105ca117f")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.227 6.426)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f6b2aa42-d868-4fe8-a620-f6ca0a6a39f6")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.109 -15.316)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5cda4fc6-94d4-4517-b5e8-c4d428cd6378")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.227 -15.316)
+		(size 3.43 3.43)
+		(drill 3.43)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5d61c61e-5d1b-4818-a686-61bbbb4a6d3e")
+	)
+	(fp_line
+		(start -9.411 -23.418)
+		(end 18.529 -23.418)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d31cda4f-1fa1-4913-8810-702bf0dbbd24")
+	)
+	(fp_line
+		(start 18.529 -23.418)
+		(end 18.529 17.602)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f18c9f74-f4c7-4ae6-b3e1-968d52ab5def")
+	)
+	(fp_line
+		(start 18.529 17.602)
+		(end -9.411 17.602)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c24edd6e-6a36-4dfc-a88e-5ccace4698e8")
+	)
+	(fp_line
+		(start -9.411 17.602)
+		(end -9.411 -23.418)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c6eb695-9558-4136-ad2c-397c7a617952")
+	)
+	(fp_line
+		(start -13.069 -24.307)
+		(end 22.187 -24.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c51646b-7faa-42f3-8e79-74b95d15bddd")
+	)
+	(fp_line
+		(start 22.187 -24.307)
+		(end 22.187 18.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04715941-5c3c-48a4-ad82-a5974fe08dd6")
+	)
+	(fp_line
+		(start 22.187 18.492)
+		(end -13.069 18.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f51895b6-bf2c-4f87-9499-da6c0693262e")
+	)
+	(fp_line
+		(start -13.069 18.492)
+		(end -13.069 -24.307)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "728f754e-2cab-4321-bb0c-9af113e5384f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.559 6.277 0)
+		(layer "F.Fab")
+		(uuid "904cc2f9-fc6e-4e3c-84a2-2c3da756a634")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -2.6 0 0)
+		(layer "F.Fab")
+		(uuid "ce4f005c-e76b-467f-aec2-bd46c1c33be5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9.521 -23.528)
+		(end 18.639 -23.528)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78b1a518-9ee7-4f98-ae10-543bc41666d4")
+	)
+	(fp_line
+		(start 18.639 -23.528)
+		(end 18.639 17.712)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ea28cda-beb7-4375-b166-267c0335183e")
+	)
+	(fp_line
+		(start 18.639 17.712)
+		(end -9.521 17.712)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d86fe4cb-338b-4976-ac44-0d45922c1c55")
+	)
+	(fp_line
+		(start -9.521 17.712)
+		(end -9.521 -23.528)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19e74d0f-66a3-4b96-a2ac-5e43e0a8310a")
+	)
+	(fp_poly
+		(pts
+				(xy -3.8 -0.6)
+				(xy -3.8 0.6)
+				(xy -2.7 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b685e723-9a6d-41b0-9684-58385aad72e7")
+	)
+	(fp_line
+		(start -13.569 -24.807)
+		(end 22.687 -24.807)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80441775-90fe-481f-b117-a4d2e69fcf06")
+	)
+	(fp_line
+		(start 22.687 -24.807)
+		(end 22.687 18.992)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d9f703a-b3d3-4031-b945-58dcabd72180")
+	)
+	(fp_line
+		(start 22.687 18.992)
+		(end -13.569 18.992)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e65f4f74-1489-4388-8501-6593d50fcee1")
+	)
+	(fp_line
+		(start -13.569 18.992)
+		(end -13.569 -24.807)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "861104ba-fc52-4525-897e-d42c53526fcc")
+	)
+	(fp_line
+		(start -0.011 -15.493)
+		(end 9.129 -15.493)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7565e11a-aa44-475f-af41-81ed94f95d6b")
+	)
+	(fp_line
+		(start 15.479 -9.143)
+		(end 15.479 3.327)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e056c027-35bc-40f9-b2cd-a6f604d7946a")
+	)
+	(fp_line
+		(start 9.129 9.677)
+		(end -0.011 9.677)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "09157a70-1a5b-4879-88fb-feaea5c97c7e")
+	)
+	(fp_line
+		(start -6.361 3.327)
+		(end -6.361 -9.143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0fba812d-8218-4707-be4a-988451c06e38")
+	)
+	(fp_arc
+		(start 9.129 -15.493)
+		(mid 13.6191 -13.6331)
+		(end 15.479 -9.143)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e299b5fc-06a3-4f87-a041-df17555021de")
+	)
+	(fp_arc
+		(start 15.479 3.327)
+		(mid 13.6191 7.8171)
+		(end 9.129 9.677)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ffdc214b-f640-4ede-8adf-9e9c49feec5e")
+	)
+	(fp_arc
+		(start -0.011 9.677)
+		(mid -4.5011 7.8171)
+		(end -6.361 3.327)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3e8ca048-37a6-4c13-963c-447e9a3b3df6")
+	)
+	(fp_arc
+		(start -6.361 -9.143)
+		(mid -4.5011 -13.6331)
+		(end -0.011 -15.493)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e2e3795a-1e13-4c70-9f31-2b8f1f39b552")
+	)
+	(fp_circle
+		(center 4.559 13.538)
+		(end 6.529 13.538)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4220a6e0-4639-4f3c-8717-ca220ac0c063")
+	)
+	(fp_circle
+		(center 4.559 -19.354)
+		(end 6.529 -19.354)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "9e9a4d12-e9ba-431b-8975-e4c18d984840")
+	)
+	(fp_text user "PANEL CUTOUT"
+		(at 4.559 8.077 0)
+		(layer "Dwgs.User")
+		(uuid "e4f2273d-7142-4188-901d-b1e3969a7050")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "panel seat 15.24-15.75 above PCB (dwg 15.75)"
+		(at 4.559 20.292 0)
+		(layer "Dwgs.User")
+		(uuid "eeca9d6e-d71d-4fc3-b692-a9b13663dd48")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "wall 6.25 max"
+		(at 4.559 21.492 0)
+		(layer "Dwgs.User")
+		(uuid "19d6d0e8-4d27-4c4e-8875-15ba24e1a31d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${YANN_LIB}/YannLib.3dmodels/TE_DEUTSCH_DT15-6P_couleur.step"
+		(offset
+			(xyz 4.559 2.4 30.353)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
