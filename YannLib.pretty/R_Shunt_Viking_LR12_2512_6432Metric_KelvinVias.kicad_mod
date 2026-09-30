@@ -1,14 +1,14 @@
-(footprint "R_Shunt_Viking_LR12_2512_6432Metric_Kelvin"
+(footprint "R_Shunt_Viking_LR12_2512_6432Metric_KelvinVias"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Viking LR12 (2512) ultra-low-ohm metal strip current sense resistor, 4-wire Kelvin land pattern, for the Device:R_Shunt symbol: current pads 1 / 4, sense pads 2 (with 1) / 3 (with 4). Source: Viking LR series datasheet REV.D2 2022-02-15: LR12 0M50 body L 6.35+/-0.254 W 3.18+/-0.254 T 1.25 terminal D 1.30+/-0.38 mm (p.2); 4-wire pad layout 2.7 x 1.45 mm, 1.0 mm between the current and sense halves, 2.95 mm between terminals (p.5). F.Cu keepout between terminals (datasheet: no circuits between pads). 3D: KiCad generic R_2512_6332Metric. YESC: LR12FTDR0M50, 0.5 mOhm 1% +/-50ppm 3W@70C, LCSC C37635712.")
-	(tags "resistor shunt current sense Kelvin 4-wire 4-terminal Viking LR12 2512 metal strip")
+	(descr "Viking LR12 (2512) ultra-low-ohm metal strip current sense resistor, 2-wire land pattern with Kelvin sense vias in the pads, for the Device:R_Shunt symbol: current pads 1 / 4 (2.7 x 3.6 mm, 2.95 mm apart, datasheet 2-wire layout), sense pads 2 / 3 = 0.3/0.6 mm vias at x -/+1.875 (inner end of the 1.30 mm terminal), tented on B.Cu, to be filled and capped. Net-tie groups 1-2 and 3-4. Source: Viking LR series datasheet REV.D2 2022-02-15: LR12 0M50 body L 6.35+/-0.254 W 3.18+/-0.254 T 1.25 terminal D 1.30+/-0.38 mm (p.2), 2-wire pad layout (p.5). F.Cu keepout between terminals (datasheet: no circuits between pads). 3D: KiCad generic R_2512_6332Metric. YESC: LR12FTDR0M50, 0.5 mOhm 1% +/-50ppm 3W@70C, LCSC C37635712.")
+	(tags "resistor shunt current sense Kelvin 4-terminal net tie via in pad Viking LR12 2512 metal strip")
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
-		(uuid "58ad8ae3-8c1d-4501-8c20-8cec71e45033")
+		(uuid "9dea9d90-c963-4ff4-b5c2-8e5039813755")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "R_Shunt_Viking_LR12_2512_6432Metric_Kelvin"
+	(property "Value" "R_Shunt_Viking_LR12_2512_6432Metric_KelvinVias"
 		(at 0 3.2 0)
 		(layer "F.Fab")
-		(uuid "1a23a75c-d61a-4e97-b444-487d1355e2f2")
+		(uuid "b455036c-5441-4a47-b989-8cbffbb33ec3")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f38b3a8c-b422-4017-9704-fa204a758057")
+		(uuid "5cff523e-1aad-45af-bb12-cb73847f2871")
 		(effects
 			(font
 				(size 1 1)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5911f2a4-2a1c-4f8b-a9f2-37e56e9d9589")
+		(uuid "975626ab-1be4-4ca9-ac7f-85b554da78be")
 		(effects
 			(font
 				(size 1 1)
@@ -51,6 +51,7 @@
 			)
 		)
 	)
+	(net_tie_pad_groups "1, 2" "3, 4")
 	(attr smd)
 	(fp_line
 		(start -1.25 -1.72)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7cac4635-f8c9-4e65-8c9f-151ad110154a")
+		(uuid "129984c4-4cd6-41c6-a5c7-4efe39a7e4b9")
 	)
 	(fp_line
 		(start -1.25 1.72)
@@ -70,47 +71,47 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ba28c940-66ca-4ca9-9af6-c02dcb7bbd3c")
+		(uuid "671c498a-44e9-480b-97aa-1e957db9f951")
 	)
 	(fp_line
-		(start -4.43 -2.2)
-		(end 4.43 -2.2)
+		(start -4.43 -2.05)
+		(end 4.43 -2.05)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "36ba710e-8191-49ea-9997-5396728df4fd")
+		(uuid "7374e174-b700-4e3c-afbb-57b6472ca377")
 	)
 	(fp_line
-		(start 4.43 -2.2)
-		(end 4.43 2.2)
+		(start 4.43 -2.05)
+		(end 4.43 2.05)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7e99bda7-2902-4367-935d-25d99fd6fb92")
+		(uuid "fe6563b2-3f50-4fc8-b60c-1cd929e963a3")
 	)
 	(fp_line
-		(start 4.43 2.2)
-		(end -4.43 2.2)
+		(start 4.43 2.05)
+		(end -4.43 2.05)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "89843eec-9fcc-4bac-83fb-24ec843ce7ca")
+		(uuid "d281762e-b15e-4904-a463-2f300af1f809")
 	)
 	(fp_line
-		(start -4.43 2.2)
-		(end -4.43 -2.2)
+		(start -4.43 2.05)
+		(end -4.43 -2.05)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5bfce62f-8b9a-44b4-b6ca-f36044deee5f")
+		(uuid "d1d63af3-f9d1-459f-b8cb-5f8f8f2c2ed4")
 	)
 	(fp_line
 		(start -3.175 -1.59)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "99a49d74-1e89-4cde-818f-816fd4b227a1")
+		(uuid "8a3062a9-e21a-4385-9b9a-463c5278b343")
 	)
 	(fp_line
 		(start 3.175 -1.59)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "17166405-d2a6-4b59-8f34-e61137ce82e8")
+		(uuid "219ef901-8d00-4f25-a677-707b4c08f490")
 	)
 	(fp_line
 		(start 3.175 1.59)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9e88ea12-5866-4362-be68-49145747e8c4")
+		(uuid "c8e4c975-ae01-4436-a7ea-3579dcc1da48")
 	)
 	(fp_line
 		(start -3.175 1.59)
@@ -150,12 +151,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cb3e2634-d97c-448a-8a55-f67422a81e21")
+		(uuid "44a1f2dd-0378-4123-87de-2076f30b83aa")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d0f03698-8e80-45e5-a04c-59becc2095bd")
+		(uuid "ec17f82e-c157-4ec9-a117-76f5ac3ae92a")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -164,38 +165,40 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -2.825 -1.225)
-		(size 2.7 1.45)
+		(at -2.825 0)
+		(size 2.7 3.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "391bda2b-e093-4158-9ddc-2e6b79fb0b1c")
-	)
-	(pad "2" smd roundrect
-		(at -2.825 1.225)
-		(size 2.7 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "99702fee-d90c-495f-af9e-1789ab2bb784")
-	)
-	(pad "3" smd roundrect
-		(at 2.825 1.225)
-		(size 2.7 1.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "c5bd5ca7-3288-4322-b4d2-7dd46c868859")
+		(roundrect_rratio 0.05)
+		(uuid "21510b3f-8811-4463-8476-150f6549c648")
 	)
 	(pad "4" smd roundrect
-		(at 2.825 -1.225)
-		(size 2.7 1.45)
+		(at 2.825 0)
+		(size 2.7 3.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1)
-		(uuid "2d370a4c-d6c3-4ef7-9210-1b0d9363ed8a")
+		(roundrect_rratio 0.05)
+		(uuid "6a067aa2-fe90-49b9-b0ed-709b1b42887b")
+	)
+	(pad "2" thru_hole circle
+		(at -1.875 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "772162f9-6626-47ea-be16-21af015d6335")
+	)
+	(pad "3" thru_hole circle
+		(at 1.875 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "0dd72149-48a9-4275-a983-9b7115acaa88")
 	)
 	(zone
 		(net 0)
 		(net_name "")
 		(layer "F.Cu")
-		(uuid "2b165fed-89d2-4c28-a0b7-ea571d3c0bfd")
+		(uuid "7cc15247-429c-44a7-9539-065b136515aa")
 		(name "Entre bornes sans cuivre")
 		(hatch edge 0.5)
 		(connect_pads
@@ -220,7 +223,7 @@
 		)
 		(polygon
 			(pts
-				(xy -1.475 -1.95) (xy 1.475 -1.95) (xy 1.475 1.95) (xy -1.475 1.95)
+				(xy -1.475 -1.8) (xy 1.475 -1.8) (xy 1.475 1.8) (xy -1.475 1.8)
 			)
 		)
 	)
