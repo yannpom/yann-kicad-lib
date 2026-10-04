@@ -9,6 +9,18 @@
 	(property "Value" "M8S-03PFFR-SF8001" (at -1.75 19.6 0) (layer "F.Fab") (uuid "461ec52c-49b6-4ded-ab36-1f3a5e0743fb") (effects (font (size 1 1) (thickness 0.15))))
 	(property "Datasheet" "https://amphenolltw.com/down.php?prod_files=428221" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "28e9c1d4-f7b9-4347-8a4d-279b5077ec02") (effects (font (size 1.27 1.27) (thickness 0.15))))
 	(property "Description" "M8 A-coded 3-pole female receptacle, shielded, right angle, THT, panel mount from inside" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "1d9b6206-d551-4b8c-a8a4-a0498a522a29") (effects (font (size 1.27 1.27) (thickness 0.15))))
+	(property "Assemblage" "main"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b811654-a900-47b2-b066-7ca2c4f68340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line (start -8.185 -2.45) (end 4.685 -2.45) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "6b0aadc3-00e2-47ac-bfa9-73990ec9cd17"))
 	(fp_line (start 4.685 -2.45) (end 4.685 5.7) (stroke (width 0.1) (type solid)) (layer "F.Fab") (uuid "91e9dfd3-2898-4298-8867-4cdb748fba88"))

@@ -51,6 +51,18 @@
 			)
 		)
 	)
+	(property "Assemblage" "main"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "311bf484-c78d-4217-b63f-ef6546451608")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -5.65 -1.1)

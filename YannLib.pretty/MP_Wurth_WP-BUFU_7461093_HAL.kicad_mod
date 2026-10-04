@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "REDCUBE PRESS-FIT with internal thread, full plain, body 7x7x6mm, https://www.we-online.com/en/components/products/datasheet/7461093_HAL?ki")
   (tags "THT")
+  (property "Assemblage" "main")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -4.75 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))

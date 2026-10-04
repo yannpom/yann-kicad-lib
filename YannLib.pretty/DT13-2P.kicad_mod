@@ -51,6 +51,18 @@
 			)
 		)
 	)
+	(property "Assemblage" "main"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7420f4c3-8ae7-4d4f-9103-d4b7d871c7e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(pad "1" thru_hole rect
 		(at 0 0)
