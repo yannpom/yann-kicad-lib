@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "USB-C 16 contacts USB 2.0 VERTICAL, SHOU HAN TYPE-C 16PLT-H6.5 (LCSC C3151748), hauteur 6,5 mm. Motif de la fiche LCSC (plan Shou Han rev. A du 19/07/2021, p.2 RECOMMENDED P.C.B. LAYOUT) : 16 plots 0,30 x 0,87 au pas de 0,5 (exterieurs a +/-2,75), rangees a +/-0,865 ; 4 pattes de blindage S1 en trous metallises oblongs 0,85 x 0,60, pastille 1,35 x 1,10, a (+/-2,40 ; +/-2,15) ; 2 plots de centrage O0,40 dans 2 trous non metallises O0,52 a (+/-3,75 ; 0). Vue de dessus = vue de face de la prise : A1 en haut a gauche, A12 en haut a droite, B12 / B1 dessous. ATTENTION : pattes de blindage de 0,95 +/-0,15 mm sous le plan d appui, la fiche recommande un PCB de 0,8 mm ; sur 1,6 mm elles ne traversent pas (brasure dans le fut par pate sur les pastilles S1). F.Fab en tirets : encombrement d une fiche surmoulee typique 12,4 x 6,6 mm (degagement, pas une regle). Empreinte EasyEDA (easyeda2kicad) relue et corrigee : trous de centrage (O0,80 / O0,60 metallises -> O0,52 NPTH), pattes nommees S1, courtyard etendu aux pastilles S1, serigraphie hors des pastilles. YESC, 9 octobre 2026. Shield pads S1 widened 1.35 x 1.1 -> 1.4 x 1.15 mm: annular ring 0.275 mm >= 0.254 mm (JLCPCB 2 oz outer copper).")
+	(descr "USB-C 16 contacts USB 2.0 VERTICAL, SHOU HAN TYPE-C 16PLT-H6.5 (LCSC C3151748), hauteur 6,5 mm. Motif de la fiche LCSC (plan Shou Han rev. A du 19/07/2021, p.2 RECOMMENDED P.C.B. LAYOUT) : 16 plots 0,30 x 0,87 au pas de 0,5 (exterieurs a +/-2,75), rangees a +/-0,865 ; 4 pattes de blindage S1 en trous metallises oblongs 0,85 x 0,60, pastille 1,35 x 1,10, a (+/-2,40 ; +/-2,15) ; 2 plots de centrage O0,40 dans 2 trous non metallises O0,52 a (+/-3,75 ; 0). Vue de dessus = vue de face de la prise : A1 en haut a gauche, A12 en haut a droite, B12 / B1 dessous. ATTENTION : pattes de blindage de 0,95 +/-0,15 mm sous le plan d appui, la fiche recommande un PCB de 0,8 mm ; sur 1,6 mm elles ne traversent pas (brasure dans le fut par pate sur les pastilles S1). F.Fab en tirets : encombrement d une fiche surmoulee typique 12,4 x 6,6 mm (degagement, pas une regle). Empreinte EasyEDA (easyeda2kicad) relue et corrigee : trous de centrage (O0,80 / O0,60 metallises -> O0,52 NPTH), pattes nommees S1, courtyard etendu aux pastilles S1, serigraphie hors des pastilles. YESC, 9 octobre 2026. Shield pads S1 widened 1.35 x 1.1 -> 1.4 x 1.15 mm: annular ring 0.275 mm >= 0.254 mm (JLCPCB 2 oz outer copper). Shield pads S1: solid zone connection (GND plane).")
 	(tags "usb usb-c 2.0 vertical receptacle shouhan C3151748")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -451,6 +451,7 @@
 		(drill oval 0.85 0.6)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "239ba098-dd25-426f-9c37-e883acdd5120")
 	)
 	(pad "S1" thru_hole oval
@@ -459,6 +460,7 @@
 		(drill oval 0.85 0.6)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "a358efaf-910d-4f5b-ac17-d905d28bd363")
 	)
 	(pad "S1" thru_hole oval
@@ -467,6 +469,7 @@
 		(drill oval 0.85 0.6)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "92b2c68a-cadd-4b0b-95d8-0951e55837dc")
 	)
 	(pad "S1" thru_hole oval
@@ -475,6 +478,7 @@
 		(drill oval 0.85 0.6)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "97fd88ed-2789-4270-8ac1-79bb9e1c7fd4")
 	)
 	(embedded_fonts no)
