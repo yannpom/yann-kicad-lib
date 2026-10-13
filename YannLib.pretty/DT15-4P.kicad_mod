@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TE Connectivity DEUTSCH DT15-4P, sealed PCB header receptacle, 4 positions, STRAIGHT (180deg) pins, FLANGED panel mount, PCB parallel to the panel; DEUTSCH size 16 contacts, 13 A on 14-16 AWG, 250 V, -55..+125 degC, 100 mating cycles (108-151009); mates DT06-4S-XXXX. Geometry from TE customer drawing C-DT15-4P rev D2 (25SEP2019), application spec 114-151046 rev A fig. DT15-4P, cross-checked on TE STEP c-dt15-4p-99-3d (pin tails on hole centres, 0.000 mm). PCB layout: 4x D1.88 +/-0.05, pins 4.445 x 9.119; 4x NPTH D3.43 +0.12/-0 for #4-20 Plastite 48 screws from under the PCB (21.336 x 17.297). Pin block is offset 1.537 mm from the panel cutout centre, away from the key. Seating plane on the PCB; flange underside 4.19, flange front (panel seat) 15.24-15.75 above the PCB (drawing 15.52), nose top 30.35; pins 3.10 below. Panel cutout option 2 on Dwgs.User: 20.73 (screw axis) x 21.84, 4x R6.35, 2x D3.94 on 28.45 for #6-19 screws, panel 6.25 max. CAVEAT: the 114-151046 layout figure is a bottom view (pin 1 bottom-right); this footprint follows the drawing front and rear views and the STEP: seen from the component side, key down, pin 1 bottom-left, 2 top-left, 3 top-right, 4 bottom-right. If the fab NPTH tolerance is symmetric, order 3.45-3.50. Origin: centre of the 4 PCB screw holes (= centre of the pin field); the panel cutout centre is 1.537 mm from it towards the key. https://www.te.com/en/product-DT15-4P.html")
+	(descr "TE Connectivity DEUTSCH DT15-4P, sealed PCB header receptacle, 4 positions, STRAIGHT (180deg) pins, FLANGED panel mount, PCB parallel to the panel; DEUTSCH size 16 contacts, 13 A on 14-16 AWG, 250 V, -55..+125 degC, 100 mating cycles (108-151009); mates DT06-4S-XXXX. Geometry from TE customer drawing C-DT15-4P rev D2 (25SEP2019), cross-checked on TE STEP c-dt15-4p-99-3d (pin tails and screw bosses on hole centres, 0.000 mm). PCB layout (drawing sheet 2): contacts D1.57 +/-0.05 on 4.445 x 9.119, finished hole D1.88 +0.13/-0 after plating (note 7: minimum, customer's choice); drill 1.96 here so the hole stays >= 1.88 with a +/-0.08 fab tolerance (JLCPCB), pad 3.0 (ring 0.52 >= 0.254 for 2 oz outer copper). 4x NPTH D3.43 +0.13/-0 on 21.336 x 17.297, drill 3.50 here (symmetric fab tolerance), for #4-20 Plastite 48 screws (0.90 +/-0.23 N.m) from the other side of the PCB into D2.79 x 8.00 blind holes of the body. Screws: #4-20 x 5/16 in Plastite 48 pan head Phillips (6.3 mm engagement, no bottoming), 3D model on each hole from the far side, head seated 1.6 mm below the footprint side (1.6 mm PCB); heads D5.56, outline on the opposite Fab layer; rule areas D7 on the opposite copper layer, no footprints only (copper allowed, isolated by the solder mask). Seating plane on the PCB; flange underside 4.19, flange front (panel seat) 15.24-15.75 above the PCB (drawing 15.52), nose top 30.35; pins 3.10 below. Panel cutout option 2 on Dwgs.User: 20.73 (screw axis) x 21.84, 4x R6.35, 2x D3.94 on 28.45 for #6-19 screws, panel 6.25 max. CAVEAT: the 114-151046 layout figure is a bottom view (pin 1 bottom-right); this footprint follows the drawing front and rear views and the STEP: seen from the component side, key down, pin 1 bottom-left, 2 top-left, 3 top-right, 4 bottom-right. Origin: centre of the 4 PCB screw holes (= centre of the pin field); the panel cutout centre is 1.537 mm from it towards the key. https://www.te.com/en/product-DT15-4P.html")
 	(tags "connector DEUTSCH DT DT15 4 pin position straight vertical 180deg flange panel mount sealed automotive TE size 16 13A header receptacle")
 	(property "Reference" "REF**"
 		(at -17.628 -19.2405 0)
@@ -262,6 +262,94 @@
 		(layer "F.CrtYd")
 		(uuid "86ab35c4-3659-42e1-b0ed-95e849ed3313")
 	)
+	(fp_circle
+		(center -10.668 -8.6485)
+		(end -7.888 -8.6485)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "7dc1f294-f539-4dcb-96da-904a4f9180d2")
+	)
+	(fp_circle
+		(center -10.668 8.6485)
+		(end -7.888 8.6485)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "8b9b7cb9-6b0d-4cf4-bcf3-866d79dd78b0")
+	)
+	(fp_circle
+		(center 10.668 -8.6485)
+		(end 13.448 -8.6485)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "91aaece6-4bf9-4ed2-8f14-2fd7b94ce1fe")
+	)
+	(fp_circle
+		(center 10.668 8.6485)
+		(end 13.448 8.6485)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "aa3f22f2-dedd-4933-9b22-90d67b727014")
+	)
+	(fp_circle
+		(center -10.668 -8.6485)
+		(end -7.1680 -8.6485)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "3b58382d-d4de-4183-ab40-d126fe4b5d91")
+	)
+	(fp_circle
+		(center -10.668 8.6485)
+		(end -7.1680 8.6485)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "4e8113ac-972b-48ae-bd39-51a5de5d69e4")
+	)
+	(fp_circle
+		(center 10.668 -8.6485)
+		(end 14.1680 -8.6485)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "f9f64f82-928b-44e6-9000-5d9fe8df9c97")
+	)
+	(fp_circle
+		(center 10.668 8.6485)
+		(end 14.1680 8.6485)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "44cc14b3-c9d2-422a-b328-5c77156723bf")
+	)
 	(fp_line
 		(start -17.628 -17.6405)
 		(end 17.628 -17.6405)
@@ -399,36 +487,36 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -10.668 -8.6485)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "75731fcb-5335-471d-b07f-d0fe5c0213ed")
 	)
 	(pad "" np_thru_hole circle
 		(at -10.668 8.6485)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "b28730fa-53cf-4505-afe2-ac15bcc688c4")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.668 -8.6485)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "5a00cce8-184f-4fe2-802e-387cbab75e88")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.668 8.6485)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "36552738-e561-44f5-85c7-a89ae3ec46ec")
 	)
 	(pad "1" thru_hole rect
 		(at -4.559 2.2225)
 		(size 3 3)
-		(drill 1.88)
+		(drill 1.96)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7db6d0bd-d7ae-4dbc-b65f-1103264c33ff")
@@ -436,7 +524,7 @@
 	(pad "2" thru_hole circle
 		(at -4.559 -2.2225)
 		(size 3 3)
-		(drill 1.88)
+		(drill 1.96)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f121ce0e-3c56-4b38-9769-f1a83f5c739e")
@@ -444,7 +532,7 @@
 	(pad "3" thru_hole circle
 		(at 4.559 -2.2225)
 		(size 3 3)
-		(drill 1.88)
+		(drill 1.96)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "baa3fea1-2971-4c21-ac27-963300f49c6a")
@@ -452,7 +540,7 @@
 	(pad "4" thru_hole circle
 		(at 4.559 2.2225)
 		(size 3 3)
-		(drill 1.88)
+		(drill 1.96)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4b9241d6-451b-4dff-a2fd-74420d3265a7")
@@ -467,6 +555,50 @@
 		)
 		(rotate
 			(xyz 0 0 -90)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz -10.668 8.6485 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz -10.668 -8.6485 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz 10.668 8.6485 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz 10.668 -8.6485 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
