@@ -7,7 +7,8 @@ Fastener SuperStore: none downloadable), so this is modelled from the standard d
 - Thread: #4 major diameter 2.84 (0.112 in), 20 TPI (pitch 1.27), 48 deg flank angle,
   drawn as axisymmetric V rings (no helix, no trilobular section); tapered point over 2 pitches.
 - Length under head 7.94 (5/16 in).
-Used by YannLib:DT15-4P (screws from the far side of the PCB into the D2.79 x 8.00 blind holes of the body).
+Used by YannLib:DT15-4P and YannLib:DTM15-12PA (screws from the far side of the PCB into the D2.79 blind holes of the body,
+8.00 deep on the DT15, 11.43 on the DTM15).
 Origin: centre of the head bearing surface; shank along +Z, head along -Z.
 """
 

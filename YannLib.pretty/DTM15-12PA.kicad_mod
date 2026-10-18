@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TE Connectivity DEUTSCH DTM15-12PA (key A, grey sleeve), sealed PCB header receptacle, 12 positions, STRAIGHT (180deg) pins, FLANGED panel mount, PCB parallel to the panel; same footprint for DTM15-12PB/PC/PD (keying is in the plastic only: pins, PCB screws and panel screws identical in the four TE STEP models). DEUTSCH size 20 contacts, 7.5 A on 16-20 AWG, 250 V, -55..+125 degC, 20 mating cycles (108-151010); mates DTM06-12S*. Geometry from TE customer drawing C-DTM15-12PX rev B2 (15JUN2026), application spec 114-151047 rev A1 fig. DTM15-12P, cross-checked on TE STEP c-dtm15-12pa-99-3d (pin tails on hole centres, 0.000 mm). PCB layout: 12x D1.30 +/-0.05, pitch 4.191, rows 7.112 apart, centred on the panel cutout; 4x NPTH D3.43 +0.12/-0 for #4-20 screws from under the PCB (34.824 x 25.400). Seating plane on the PCB; flange underside 4.19, flange front (panel seat) 17.27 above the PCB (seal crest 17.78), nose top 30.23; pins 3.05 below. Panel cutout option 2 on Dwgs.User: 41.28 (screw axis) x 21.49, 4x R3.18, 2x D4.06 on 49.53 for #6-19 screws, flat seal land >= 60.96 x 33.02, panel 6.25 max. Seen from the component side (= drawing front view), keyway A down: row 1-6 left to right at the top, row 12-7 below. If the fab NPTH tolerance is symmetric, order 3.45-3.50. Origin: centre of the 4 PCB screw holes (= centre of the pin field = panel cutout centre). https://www.te.com/en/product-DTM15-12PA.html")
+	(descr "TE Connectivity DEUTSCH DTM15-12PA (key A, grey sleeve), sealed PCB header receptacle, 12 positions, STRAIGHT (180deg) pins, FLANGED panel mount, PCB parallel to the panel; same footprint for DTM15-12PB/PC/PD (keying is in the plastic only: pins, PCB screws and panel screws identical in the four TE STEP models). DEUTSCH size 20 contacts, 7.5 A on 16-20 AWG, 250 V, -55..+125 degC, 20 mating cycles (108-151010); mates DTM06-12S*. Geometry from TE customer drawing C-DTM15-12PX rev B2 (15JUN2026), application spec 114-151047 rev A1 fig. DTM15-12P, cross-checked on TE STEP c-dtm15-12pa-99-3d (pin tails on hole centres, 0.000 mm). PCB layout: 12x D1.30 +/-0.05, pitch 4.191, rows 7.112 apart, centred on the panel cutout; 4x NPTH D3.43 +0.12/-0 on 34.824 x 25.400, drill 3.50 here (symmetric fab tolerance), for #4-20 Plastite 48 thread-forming screws (0.68-1.13 N.m) from the other side of the PCB into D2.79 x 11.43 blind holes of the body. Screws: #4-20 x 5/16 in Plastite 48 pan head Phillips (6.3 mm engagement, no bottoming; same screw as DT15-4P), 3D model on each hole from the far side, head seated 1.6 mm below the footprint side (1.6 mm PCB); heads D5.56, outline on the opposite Fab layer; courtyards D7 on the opposite side around each head (no footprints; copper allowed, isolated by the solder mask). Seating plane on the PCB; flange underside 4.19, flange front (panel seat) 17.27 above the PCB (seal crest 17.78), nose top 30.23; pins 3.05 below. Panel cutout option 2 on Dwgs.User: 41.28 (screw axis) x 21.49, 4x R3.18, 2x D4.06 on 49.53 for #6-19 screws, flat seal land >= 60.96 x 33.02, panel 6.25 max. Seen from the component side (= drawing front view), keyway A down: row 1-6 left to right at the top, row 12-7 below. Origin: centre of the 4 PCB screw holes (= centre of the pin field = panel cutout centre). https://www.te.com/en/product-DTM15-12PA.html")
 	(tags "connector DEUTSCH DTM DTM15 12 pin position straight vertical 180deg flange panel mount sealed automotive TE size 20 7.5A header receptacle")
 	(property "Reference" "REF**"
 		(at -30.48 -18.11 0)
@@ -64,6 +64,94 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center -17.412 -12.7)
+		(end -14.632 -12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "cf12f486-eadc-4e01-8f4c-2854970dc32b")
+	)
+	(fp_circle
+		(center -17.412 12.7)
+		(end -14.632 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "8b56a859-d77c-435f-ad98-0a8ee8c2a0c3")
+	)
+	(fp_circle
+		(center 17.412 -12.7)
+		(end 20.192 -12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "8d3de4ce-1669-4bd5-b882-ae986d54a432")
+	)
+	(fp_circle
+		(center 17.412 12.7)
+		(end 20.192 12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "4089f535-7083-450c-95b6-98d806d7b20e")
+	)
+	(fp_circle
+		(center -17.412 -12.7)
+		(end -13.912 -12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "6884fd8a-0762-453a-9641-d48e79ed6471")
+	)
+	(fp_circle
+		(center -17.412 12.7)
+		(end -13.912 12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "f924bd39-d4ec-47dd-b72c-2d0e76131cfc")
+	)
+	(fp_circle
+		(center 17.412 -12.7)
+		(end 20.912 -12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "7695e4fe-245b-48c5-bc65-119ddc7e4046")
+	)
+	(fp_circle
+		(center 17.412 12.7)
+		(end 20.912 12.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "36f9b811-bcde-4371-812c-1269c2712f20")
+	)
 	(fp_line
 		(start -28.939 -16.112)
 		(end 28.939 -16.112)
@@ -479,29 +567,29 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -17.412 -12.7)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "56ff518d-0e57-47d9-9bf9-e439e5cad111")
 	)
 	(pad "" np_thru_hole circle
 		(at -17.412 12.7)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "859b7cfc-968b-4a99-88f7-ec2a0b563985")
 	)
 	(pad "" np_thru_hole circle
 		(at 17.412 -12.7)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "7174c311-dad8-417c-a820-9d074db85be9")
 	)
 	(pad "" np_thru_hole circle
 		(at 17.412 12.7)
-		(size 3.43 3.43)
-		(drill 3.43)
+		(size 3.5 3.5)
+		(drill 3.5)
 		(layers "*.Cu" "*.Mask")
 		(uuid "248d89cd-8200-484b-b7b4-dadf96e5c04e")
 	)
@@ -605,6 +693,50 @@
 	(model "${YANN_LIB}/YannLib.3dmodels/TE_DEUTSCH_DTM15-12PA_couleur.step"
 		(offset
 			(xyz 0 0 30.226)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz -17.412 12.7 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz -17.412 -12.7 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz 17.412 12.7 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${YANN_LIB}/YannLib.3dmodels/Plastite48_4-20x5-16_PanPhillips.step"
+		(offset
+			(xyz 17.412 -12.7 -1.6)
 		)
 		(scale
 			(xyz 1 1 1)
