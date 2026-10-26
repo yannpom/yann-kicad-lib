@@ -30,7 +30,7 @@ If you prefer manual configuration, add these entries:
 
 - **YannLib.kicad_sym** - Symbol library
 - **YannLib.pretty/** - Footprint library (115 footprints)
-- **YannLib.3dmodels/** - 3D STEP models (87 models)
+- **YannLib.3dmodels/** - 3D STEP models (127 models)
 
 ## Update Submodule
 
