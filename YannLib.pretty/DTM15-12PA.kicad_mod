@@ -64,6 +64,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -14.577 -7.656)
+		(end 14.577 7.656)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "a2d71775-1249-478d-8132-a1233c2be1fd")
+	)
 	(fp_circle
 		(center -17.412 -12.7)
 		(end -14.632 -12.7)
